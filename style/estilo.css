@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: solid #00ffd5;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo img {
+    max-width: 80px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.logo img:hover {
+    transform: scale(1.1);
+}
+.logo img:active {
+    transform: scale(0.9) translateY(5px);
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    margin-left: 20px; 
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 5px 2px black;
+}
+
+.sidebar {
+    width: 15%;
+    height: 100vh;
+    background-color: #ccc;
+    padding: 20px;
+}
+.sidebar p {
+    margin-top: 10px;
+}
+.portifólio {
+    width: 200px;
+    float: right;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.foto2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+.projetos {
+    padding: 0;
+}
+.projetos li {
+    list-style: none;
+}
+.projetos button {
+    background-color: #ccc;
+    color: white;
+    align-items:center ;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.projetos button:hover {
+    background-color:#ccc;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
